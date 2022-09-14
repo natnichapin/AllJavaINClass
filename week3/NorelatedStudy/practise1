@@ -1,0 +1,5 @@
+// myFunction('abcdefg')
+
+// function myFunction(str) {
+//   return console.log(str.slice(3)) ;
+// }
