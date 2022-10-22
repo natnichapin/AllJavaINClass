@@ -1,6 +1,6 @@
 let arr1 =['hello world','Good night','Good morning']  
 let [greeting1, greeting2,...otherGreeting1] = arr1
-//... is less operator that keep values are remain 
+//... is rest  operator that keep values are remain 
 //let greeting1 = arr1[0]
 //let greeting2 = arr1[1]
 
@@ -23,5 +23,5 @@ let letters=[...str]
 console.log(letters) 
 for(const [index, letter] of letters.entries()){
     //const [index,letter] = letter.enties() 
-    console.log(`index ${index},letters${letter}`)  
+    console.log(`index ${index},letters ${letter}`)  
 }

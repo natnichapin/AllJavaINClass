@@ -6,7 +6,7 @@ for(let index=0; index<arr.length; index++){
 }
 console.log("----------- for of -------------")
 //for of : let , const , var 
-//for in use : Array
+//for of use : Array
 for(const i of arr){ 
     console.log(i)
 }
