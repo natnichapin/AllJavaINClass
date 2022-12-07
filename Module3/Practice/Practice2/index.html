@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    li{ 
+        margin: 5px;
+    }
+     li button { 
+        margin-left: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div class="YourList"> 
+    <h1> YourList </h1>
+    <labels for="list">input your list</labels>
+    <input type="text" id="list" >
+    <button onclick="addSomthing(document.getElementById('list').value)">ADD</button>
+    <button onclick="Clear()">Clear</button>
+    </div>
+    <script src="./main.js"></script>
+    
+</body>
+</html>

@@ -28,6 +28,7 @@ let b = 2
     return a+b
 }
 console.log(outer(10));
+console.log(outer(10)(20));
 //ไม่สามารถ เรียก inner ได้โดยตรง ซึ่งจะได้ค่า undefined
 
 //test inner (อาจะเป็นข้อสอบ)

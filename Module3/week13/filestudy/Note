@@ -1,0 +1,19 @@
+DOM 
+-Root node ( logical node / document node ): we can call through the Doctype 
+ไม่มีอยู่จริงใน เอกสาร แต่ต้องมีไม่งั้นเป็น tree ไม่ได้
+-Root element ( document element ) : HTML,... or first node in html  
+
+                -type-
+-element node 
+-text node is child of element 
+-Attribute node is node  but not in tree node เขียนฝากไว้ที่ owner tag ไม่มี 
+parent , child 
+
+-detail-
+1 กิ่ง = edge 
+array like : return มาชั้น child 1 จะเป็นคล้ายๆ array มี length ให้ใช้งานได้ แต่ไม่ใช่ 
+first  child = [0] , last child [last] , 
+Note!! : whitespace is one text node 
+        : if not closed tage , all of inner is child 
+
+<p> ตรงนี้เว้นว่างไว้อาจเป็น text node ได้ <span> Text </span></p>

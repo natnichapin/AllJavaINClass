@@ -40,7 +40,9 @@ console.log(a7) // z คือ บอกว่าเป็นเวลาสา�
 Person.prototype.toString =  function() { 
     return this.getFullName()+' '+this.getAge()
 }
-console.log(a2.toString())
+
+// Person.prototype. => กำหนดโครงสร้างใน class  หรือ object
+console.log("toString " +a5.toString())
 console.log(a5.getAge())
 console.log(a3.toString())
 console.log(a4.toString())

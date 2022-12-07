@@ -37,3 +37,5 @@ console.log(getTodos())
 removeTodo(2)
 console.log(getTodos())
 console.log(findTodo(1))
+
+export {todoManagement}
